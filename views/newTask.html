@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/listTask" method="POST">
+        <h1>
+            <a href="/"> Home</a>
+            <a href="/listTask"> List Task</a>
+        </h1>
+        Task Name <input type="text" name="taskname" />
+        <br /> 
+        Task Due  <input type="text" name="taskdue" />
+        <br /> 
+        Task Desc <input type="text" name="taskdesc" />
+        <br />
+        Importance <select name='importance' > 
+            <option value="Choose">Choose</option> 
+            <option value="High">High</option> 
+            <option value="Medium">Medium</option> 
+            <option value="Low">Low</option> 
+            
+        </select> 
+        <br/>
+        
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

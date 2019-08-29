@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(221, 89, 89);
+}
+
+img{
+    height: 96.5%;
+    width: 100%;
+    filter: blur(1px);
+}
+
+
+
